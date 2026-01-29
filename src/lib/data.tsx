@@ -1,71 +1,71 @@
-import { Icons } from '@/components/icons';
+import { Icons } from "@/components/icons";
 
 export const links = [
   {
-    name: 'Home',
-    hash: '#home',
+    name: "Home",
+    hash: "#home",
   },
   {
-    name: 'About',
-    hash: '#about',
+    name: "About",
+    hash: "#about",
   },
   {
-    name: 'Experience',
-    hash: '#experience',
+    name: "Experience",
+    hash: "#experience",
   },
   {
-    name: 'Projects',
-    hash: '#projects',
+    name: "Projects",
+    hash: "#projects",
   },
   {
-    name: 'Contact',
-    hash: '#contact',
+    name: "Contact",
+    hash: "#contact",
   },
 ] as const;
 
 export const projectsData = [
   {
-    image: '/images/project-1.webp',
-    title: 'SoManyLemons',
+    image: "/images/project-1.webp",
+    title: "SoManyLemons",
     description:
-      'An all-in-one content marketing platform that turns ideas into ready-to-publish content across channels, supporting 1,000+ monthly users.',
-    technologies: ['React', 'TypeScript', 'Tailwind', 'Content Marketing'],
+      "An all-in-one content marketing platform that turns ideas into ready-to-publish content across channels, supporting 1,000+ monthly users.",
+    technologies: ["React", "TypeScript", "Tailwind", "Content Marketing"],
     links: {
-      preview: 'https://somanylemons.com',
-      github: '',
-      githubApi: '',
+      preview: "https://somanylemons.com",
+      github: "",
+      githubApi: "",
     },
   },
   {
-    image: '/images/project-2.webp',
-    title: 'Renew Data Processing',
+    image: "/images/project-2.webp",
+    title: "Renew Data Processing",
     description:
-      'Data Processing and Analytics Backend with user authentication, CSV generation, and automated Excel file creation stored in Azure Data Lake.',
-    technologies: ['Node.js', 'NestJs', 'MongoDB', 'Azure Data Lake'],
+      "Data Processing and Analytics Backend with user authentication, CSV generation, and automated Excel file creation stored in Azure Data Lake.",
+    technologies: ["Node.js", "NestJs", "MongoDB", "Azure Data Lake"],
     links: {
-      preview: '',
-      github: '',
-      githubApi: '',
+      preview: "",
+      github: "",
+      githubApi: "",
     },
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Software Engineer',
-    company: 'Codemonk, Bengaluru',
+    title: "Software Engineer",
+    company: "Codemonk, Bengaluru",
     description:
-      'Built frontend modules for drone configuration and calibration using React, Redux, and LeafletJs, reducing setup time by 40%. Designed flight path algorithms for autonomous operations with 95% precision. Led e-commerce UI development using NextJs, delivering 2 weeks ahead of schedule.',
-    period: 'Jul 2022 - Jan 2025',
-    technologies: ['React', 'Redux', 'LeafletJs', 'Next.js', 'Tailwind'],
+      "Built frontend modules for drone configuration and calibration using React, Redux, and LeafletJs, reducing setup time by 40%. Designed flight path algorithms for autonomous operations with 95% precision. Led e-commerce UI development using NextJs, delivering 2 weeks ahead of schedule.",
+    period: "Jul 2022 - Jan 2025",
+    technologies: ["React", "Redux", "LeafletJs", "Next.js", "Tailwind"],
   },
   {
-    title: 'Software Engineer',
-    company: 'Sonde Solutions, Bengaluru',
+    title: "Software Engineer",
+    company: "Sonde Solutions, Bengaluru",
     description:
-      'Architected content generation platform for social media serving 500+ daily users. Engineered audio-to-visual content pipeline reducing creation time by 70%. Designed specialized chatbot for training managers deployed across 3 enterprise clients.',
-    period: 'Feb 2025 - Present',
-    technologies: ['React', 'TypeScript', 'OpenAI API', 'Eleven Labs'],
+      "Architected content generation platform for social media serving 500+ daily users. Engineered audio-to-visual content pipeline reducing creation time by 70%. Designed specialized chatbot for training managers deployed across 3 enterprise clients.",
+    period: "Feb 2025 - Present",
+    technologies: ["React", "TypeScript", "OpenAI API", "Eleven Labs"],
   },
 ] as const;
 

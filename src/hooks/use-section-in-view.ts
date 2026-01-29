@@ -1,12 +1,12 @@
-import { useEffect } from 'react';
-import { useInView } from 'react-intersection-observer';
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
-import { useActiveSection } from '@/components/active-section-provider';
-import type { SectionName } from '@/lib/types';
+import { useActiveSection } from "@/components/active-section-provider";
+import type { SectionName } from "@/lib/types";
 
 export const useSectionInView = (
   sectionName: SectionName,
-  threshold = 0.75
+  threshold = 0.75,
 ) => {
   const { ref, inView } = useInView({
     threshold,
@@ -20,9 +20,9 @@ export const useSectionInView = (
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [inView, setActiveSection, timeOfLastClick, sectionName]);
 
   return {

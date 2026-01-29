@@ -21,21 +21,17 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+          I&apos;m Atul Patel, a software engineer based in India with a passion
+          for building modern web applications. I specialize in frontend
+          technologies like React, Next.js, and TypeScript, while also having
+          strong backend experience with Node.js, NestJs, and MongoDB. I&apos;ve
+          worked on exciting projects ranging from content generation platforms
+          and drone control systems to e-commerce applications.
         </p>
         <p>
-          I&apos;m open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don&apos;t hesitate to contact me.
+          I&apos;m always looking to learn new technologies and take on
+          challenging projects. If you have an opportunity that matches my
+          skills and experience, don&apos;t hesitate to reach out!
         </p>
       </div>
       <Skills />
